@@ -1,0 +1,65 @@
+	/*
+	 * 
+	 */
+	.hoverBtnSpan span{
+		display:-moz-inline-box;
+		display:inline-block;
+		height:40px;
+		line-height:40px;
+		font-weight:normal;
+		color:#9E9E9E;
+		cursor:pointer;
+		text-align:left;
+		padding-left:18px;
+		padding-right:18px;
+		font-size:12px;
+		
+		background-repeat:no-repeat;
+		background-position:5px center;
+	}	
+	
+	/*
+	 * 
+	 */
+	.hide{
+		display:none;
+	}	
+		
+	/*
+	 * 
+	 */
+	.hoverBtnSpan .selectedTitle{
+		/*background-color:#fff;
+		border-bottom:1px solid #fff;
+		border-left:1px solid #DADADA;
+		border-right:1px solid #DADADA;*/
+		color:#000;
+	}
+	
+	/*
+	 * 
+	 */
+	.hoverBtnSpan span.rightMenuHover {
+		/*background-color:#ECE9D8;*/
+		color:black;
+		transition:background-color 0.2s ease-out 0.2s;
+	}
+	
+	
+	/*
+	 * 
+	 */
+	.searchInput{
+		width:70px;
+	}
+	
+	.cornerMenu{
+		display:-moz-inline-box;
+		display:inline-block;
+		width:40px;
+		height:30px;
+		cursor:pointer;
+		background-image:url(/images/ecology8/request/cornerMenu_wev8.png);
+		background-repeat:no-repeat;
+		background-position:center center;
+	}

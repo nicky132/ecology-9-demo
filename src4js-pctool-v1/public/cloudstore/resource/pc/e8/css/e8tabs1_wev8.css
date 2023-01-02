@@ -1,0 +1,300 @@
+/* box */
+.e8_box {
+	height:100%;
+	width:100%;
+	background: #fff;
+	overflow:hidden;
+}
+.tab_menu{
+	padding: 0px;
+	margin: 0px;
+	background:#fff;
+	float:left;
+	height: 40px;
+	line-height: 40px;
+	/*width:120px;*/
+	overflow-y:hidden;
+	white-space:nowrap;
+	clear:both;
+}
+
+.e8_rightBox {
+	overflow:hidden;
+	padding: 0px;
+	margin: 0px;
+	background: transparent;
+	float:right;
+	text-align:right;
+	height:40px;
+	visibility:hidden;
+	white-space:nowrap;
+	position:absolute;
+	top:10;
+	right:10;
+	line-height:40px;
+}
+
+.tab_menu li {
+	float: left;
+	height: 40px;
+	line-height: 43px;
+	text-align: center;
+	cursor: pointer;
+	list-style-type: none;
+	padding-left:5px;
+	padding-right:5px;
+	color:#B8B8B8;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.tab_menu li a {
+	/*color:#B8B8B8;*/
+	color:#242424;
+	display:inline-block;
+	overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    vertical-align: middle;
+    white-space: nowrap;
+    word-break: keep-all;
+    height:100%;
+    *padding-top:5px;
+}
+
+.tab_menu li.firstLi{
+	/*margin-left:10px;*/
+}
+
+.e8_rightBorder{
+	padding-left:5px;
+	color:#B8B8B8;
+	display:inline-block;
+	height:100%;
+	vertical-align:middle;
+	font-size:12px;
+
+}
+
+.tab_menu li.current {
+	color:  rgb(13,147,246);
+	/*color:#000;*/
+}
+
+.tab_menu li a:hover{
+	color:  rgb(13,147,246) !important;
+}
+
+.tab_menu li.current a{
+	color: rgb(13,147,246) !important;
+}
+
+.e8_outbox{
+	top:19px;
+}
+
+.tab_box {
+	height: 100%;
+	width:100%;
+	background:#fff;
+	border-top:1px solid #DADADA;
+	clear:both;
+}
+.tab_box .hide,div.hide {
+	display: none;
+}
+
+div.e8_content{
+	float:right;
+	position:absolute;
+	background: #fff;
+	border-left:1px solid #D7D7D7;
+	border-bottom:1px solid #D7D7D7;
+	border-right:1px solid #D7D7D7;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	z-index:99999;
+}
+
+div.e8_content li{
+	float:none;
+	height:25px;
+	line-height:25px;
+	/*list-style-type:disc;*/
+	padding-left:25px;
+	padding-right:10px;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	text-align:left;
+	left:0px;
+}
+
+div.e8_content li.e8_li_hover{
+	background: #FAFAFA;
+	border-top:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	color:#53A1E1;
+}
+
+div.e8_content li a:hover{
+	color:#53A1E1;
+}
+
+div.e8_content li a{
+	color:#B8B8B8;
+}
+
+li.e8_expand{
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;
+	background-image:url(/cloudstore/libs/e8/images/uparrow_wev8.png);
+	background-position:50% 63%;
+	background-repeat:no-repeat;
+}
+
+li.e8_expand_selected{
+	background-color:#fff;
+	/*border-left:1px solid #D7D7D7;
+	border-right:1px solid #D7D7D7;*/
+}
+
+.magic-line {
+	position: absolute;
+	left: 0;
+	height: 19px!important;
+	line-height: 2px!important;
+	top:32px;
+	/*background: #7FB4E9;*/
+	background-image:url("/cloudstore/libs/e8/images/angle_wev8.png");
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+.e8_tablogo{
+	background-image:url("/cloudstore/libs/e8/images/default_wev8.png");
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	width:43px;
+	height:60px;
+	line-height:60px;
+	margin-left:12px;
+	float:left;
+}
+
+.e8_tablogonew{
+	background-image:url("/cloudstore/libs/e8/images/mnav0_wev8.png");
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	width:43px;
+	height:60px;
+	line-height:60px;
+	margin-left:12px;
+	float:left;
+}
+
+.e8_ultab{
+	height:60px;
+	float:left;
+	overflow:hidden;
+}
+
+.e8_navtab{
+	height:20px;
+	line-height:38px;
+	margin-left:5px;
+	font-size:16px;
+	font-weight:normal;
+}
+
+.e8_navtab span#objName{
+	display: inline-block;
+	max-width: 400px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.e8_tree{
+	padding-left:5px !important;
+	display:none;
+}
+
+.e8_outbox{
+	position:fixed;
+	right:0;
+}
+
+.div_e8_xtree{
+	display:none;
+	float:left;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+.e8_boxhead{
+	background-color:#fff;
+	height:60px;
+	overflow:hidden;
+	/*position:relative;*/
+	z-index:3;
+	/*visibility:hidden;*/
+}
+
+.defaultTab{
+	display:none!important;
+}
+
+div.e8_expandOrCollapseDiv {
+    background-color: #fff;
+    border: medium none;
+    cursor: pointer;
+    height: 48px;
+    left: 450px;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    width: 15px;
+    background-image:url(/cloudstore/libs/e8/images/openTree_wev8.png);
+}
+
+div.e8_expandOrCollapseDiv_tree{
+	height:39px;
+	width:10px;
+	z-index:3;
+}
+
+div.e8_expandOrCollapseDiv:hover{
+	background-image:url(/cloudstore/libs/e8/images/openTree_hover_wev8.png);
+}
+
+div.e8_expandOrCollapseDivCol{
+	background-image:url(/cloudstore/libs/e8/images/closeTree_wev8.png)
+}
+
+div.e8_expandOrCollapseDivCol:hover{
+	background-image:url(/cloudstore/libs/e8/images/closeTree_hover_wev8.png);
+}
+
+.round_shade_box{width:1px; height:1px; font-size:0; display:none; _background:white; _border:1px solid #cccccc;z-index:9999;vertical-align: middle;position:absolute;}
+.round_shade_top{margin:0 12px 0 10px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) repeat-x -20px -40px; _background:white; zoom:1;}
+.round_shade_topleft{width:11px; height:10px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat 0 0; _background:#000; float:left; margin-left:-11px; position:relative;}
+.round_shade_topright{width:12px; height:10px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat -29px 0; _background:#000; float:right; margin-right:-12px; position:relative;}
+.round_shade_centerleft{background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat 0 -1580px; _background:none;}
+.round_shade_centerright{background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat right -80px; _background:none;}
+.round_shade_both{margin-left:6px;font-size:14px;background:white;width:98%;height:26px!important;float:left;z-index:9999;}
+.round_shade_center{font-size:14px; margin:0 12px 0 10px; padding:0 15px 10px 12px; background:white; letter-spacing:1px; text-align:center;vertical-align: middle;overflow:auto;margin:0 auto;height:500px;width:500px;}
+.round_shade_center1{font-size:14px; _background:white; letter-spacing:1px; text-align:center;vertical-align: middle;margin:0 auto;}
+.round_shade_bottom{margin:0 12px 0 11px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) repeat-x -20px bottom; _background:white; zoom:1;}
+.round_shade_bottomleft{width:11px; height:10px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat 0 -30px; _background:none; float:left; margin-left:-11px; position:relative;}
+.round_shade_bottomright{width:12px; height:10px; background:url(/cloudstore/libs/e8/images/zxx_round_shade_wev8.png) no-repeat -29px -30px; _background:none; float:right; margin-right:-12px; position:relative;}
+.round_shade_top:after,.round_shade_bottom:after,.zxx_zoom_box:after{display:block; content:"."; height:0; clear:both; overflow:hidden; visibility:hidden;}
+.round_box_close{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/close_wev8.png) no-repeat; position:absolute; right:34px; top:10px;z-index:9999;}
+.round_box_right{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/rightturn_wev8.png) no-repeat; position:absolute;right:74px; top:10px;z-index:9999;}
+.round_box_left{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/leftface_wev8.png) no-repeat; position:absolute;right:114px; top:10px;z-index:9999;}
+.round_box_add{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/enlarge_wev8.png) no-repeat; position:absolute;right:154px; top:10px;z-index:9999;}
+.round_box_minus{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/narrow_wev8.png) no-repeat; position:absolute;right:194px; top:10px;z-index:9999;}
+.round_box_1{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/noash_wev8.png) no-repeat; position:absolute;right:234px; top:10px;z-index:9999;}
+.zoom_save{width:24px;height:24px;background:#FFFFFF url(/cloudstore/libs/e8/images/save_wev8.png) no-repeat; position:absolute;right:274px; top:10px;z-index:9999;}
+.round_box_close:hover{width:24px;height:24px;background:url(/cloudstore/libs/e8/images/closehot_wev8.png) no-repeat;}
+

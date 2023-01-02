@@ -1,0 +1,148 @@
+﻿@CHARSET "UTF-8";
+.sbHolder{
+	background-color: #ffffff;
+	font-weight: normal;
+	height: 22px;
+	position: relative;
+    outline: none;
+    display:inline-block;
+    width:80%;
+    vertical-align:middle;
+}
+
+.jNiceSelectFloat{
+	float:left;
+}
+
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 26px;
+	left: 0;
+	line-height: 26px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+    color: #000;
+	top: 0;
+	width: 100%;
+	text-align:left;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	outline: none;
+	text-decoration: none;
+	color:#000;
+}
+.sbToggle{
+	background: url(../img/select-icons_wev8.png) 0 -170px no-repeat;
+	display: block;
+	height: 22px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 24px;
+}
+.sbToggle:hover{
+	background: url(../img/select-icons_wev8.png) 0 -170px no-repeat;
+}
+.sbToggleOpen{
+	background: url(../img/select-icons_wev8.png) 0 -70px no-repeat;
+}
+.sbToggleOpen:hover{
+	background: url(../img/select-icons_wev8.png) 0 -70px no-repeat;
+}
+.sbHolderDisabled{
+	background-color: #EEE;
+	border:1px solid #e2e2e2!important;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+
+.sbPerfectBar{
+	overflow:hidden;
+	position: absolute;
+	top: 22px;
+	left: -1px;
+	background-color: #ffffff;
+	border:1px solid #ccc;
+	border-top: 1px solid #eee;
+	border-radius: 0 0 3px 3px;
+	width:100%;
+	z-index:100;
+}
+
+.sbOptions,.asOptions{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	overflow-y: hidden;
+}
+.sbOptions li,.asOptions li{
+	padding: 0 7px;
+	height:24px;
+	line-height:12px;
+}
+
+.sbOptions li:hover{
+	padding: 0 7px;
+	background:#3399ff;
+}
+
+.sbOptions a,.asOptions a{
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+	color:#000;
+	width:100%;
+	height:100%;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.sbOptions a:link, .sbOptions a:visited,.asOptions a:link,.asOptions a:visited{
+	text-decoration: none;
+	font-size:12px;
+	color:#000;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.as_over a,
+.as_over a:hover,
+.as_over a:focus{
+	color: #ffffff !important;
+}	
+.sbOptions li.last a,.asOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled,.asOptions .sbDisabled{
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup,.asOptions .sbGroup{
+	color: #3399ff;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub,.asOptions .sbSub{
+	padding-left: 17px;
+}
+
+.selectorfontstyle{
+    font-weight: bold;
+}
+
+.as_over {
+	background-color: #3399ff;
+	color: white;
+}

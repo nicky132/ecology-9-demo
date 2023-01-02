@@ -1,0 +1,202 @@
+*{
+    font-family: "\5FAE\8F6F\96C5\9ED1"!important;
+
+}
+.optiongroup{
+    width: 100%;
+    font-size: 12px;
+
+}
+
+.optionhead{
+    height: 30px;
+    border-bottom: 1px solid #cccccc;
+    background: #FFF!important;
+}
+
+.optiontitle{
+    height: 100%;
+    float: left;
+    margin-left: 10px;
+}
+.optionToolbar{
+     height: 100%;
+     float: right;
+}
+
+.middleHelper{
+   height: 100%;
+   display: inline-block;
+    vertical-align: middle;
+}
+.toolpic{
+    vertical-align: middle;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.grouptable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grouptable thead tr{
+ border-bottom: 2px solid #B7E0FE;
+ height: 30px;
+}
+
+.grouptable thead th:first-child
+{
+    text-align: center;
+}
+
+.firstTh{
+    text-align: left !important;
+    padding-left: 16px !important
+}
+
+.grouptable thead th{
+    text-align: left;
+    vertical-align: middle;
+    font-weight: normal;
+    height: 30px;
+    background-color:rgb(248,248,248);
+}
+
+.grouptable tbody{
+    color: #242424 !important;
+}
+
+.grouptable tbody .contenttr{
+    height: 30px;
+   /* border-bottom: 1px solid #cccccc;*/
+}
+
+.grouptable tbody .Selected td{
+	background-color:#f5fafb!important;
+}
+
+.grouptable tbody td:first-child
+{
+    text-align: center;
+}
+
+.grouptable tbody td{
+    PADDING-RIGHT: 3px;
+    PADDING-LEFT: 2px;
+    height: 30px;
+
+}
+
+
+.trmouseover{
+   /* border-bottom: 1px solid #75bbf4 !important;*/
+}
+.itemmouseover{
+    border: 1px solid rgb(186, 186, 186) !important;
+    color: #000 !important;
+}
+.itemmouseoverleft{
+	border-left: 1px solid rgb(186, 186, 186) !important;
+}
+.hiddenspan{
+    display: none;
+}
+.optiongroup input{
+    border: #f7f7f2 1px solid;
+    height: 22px;
+    outline: none;
+    color: #242424;
+
+}
+
+.optiongroup input.e8_browserInput{
+	border:none!important;
+}
+
+.optiongroup A:link {
+  /*   COLOR: #929393  !important;    */
+}
+
+.sbSelectorhover{
+    color: #000 !important;
+}
+
+
+.optiongroup A:hover{
+ /*   COLOR: #000  !important;  */
+}
+
+.tablecontainer{
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+    padding-left:10px;
+}
+
+
+.linesplit{
+
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+}
+.optiongroup select{
+    border: #f7f7f2 1px solid ;
+}
+
+.sbHolder {
+    background-color: #ffffff;
+    border: 1px solid #f7f7f2;
+    font-weight: normal;
+    height: 22px;
+    position: relative;
+    outline: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sbSelector {
+    display: block;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    outline: none;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10px;
+    color: #242424;
+    top: 0;
+    width: 170px;
+}
+
+.mustinput{
+    display: inline-block;
+    background: url("../img/BacoError_wev8.gif");
+    vertical-align: middle;
+    width: 8px;
+    height: 14px;
+}
+
+.selectorfontstyle{
+    font-weight: bold;
+}
+
+.navcolor{
+	background-image:url(../img/groupHead_wev8.png);
+	background-repeat:no-repeat;
+	background-position:0 50%;
+	display:inline-block;
+	width:16px;
+	height:100%;
+	float:left;
+}
+
+.e8_navtitle{
+	font-weight:bold;
+	float:left;
+	display:inline-block;
+	padding-left:5px;
+	height:100%;
+	line-height:35px;
+}

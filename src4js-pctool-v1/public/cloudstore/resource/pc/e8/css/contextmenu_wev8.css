@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+/*--------------------------下面是菜单css---------------------*/
+.b-m-mpanel {
+	background: #F0F0F0 url(menu_bg_wev8.gif) left repeat-y;
+	border: 1px solid #aaa !important;
+	padding: 2px 0 !important;
+	position: absolute;
+	z-index: 99997;
+	left:0px;
+	top:0px;
+}
+.b-m-split {
+	height: 6px;
+	background: url(m_splitLine_wev8.gif) center repeat-x;
+	font-size: 0px;
+	margin: 0 2px;
+}
+.b-m-item, .b-m-idisable
+{
+    padding: 1px 2px !important;
+    margin: 0 2px 0 3px !important;
+    cursor: normal;
+    line-height:100%;
+	cursor:hand;
+}
+.b-m-idisable
+{
+    color:#808080;
+}
+.b-m-ibody, .b-m-arrow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+
+.b-m-arrow {
+	background: url(m_arrow_wev8.gif) right  no-repeat;	
+}
+.b-m-idisable .b-m-arrow
+{
+    background:none;
+}
+.b-m-item img, .b-m-ifocus img, .b-m-idisable img {
+	margin-right: 8px;
+}
+.b-m-ifocus {
+	background: url(m_item_wev8.gif) repeat-x bottom;
+	border: 1px solid #AACCF6;
+	padding: 0px 1px ;
+    margin: 0 2px 0 3px;
+    cursor: normal;
+    line-height:100%;
+	
+}
+.b-m-idisable img {
+	visibility:hidden;
+}
+.b-m-ibody button{
+	text-align:left;
+	padding:0;
+	height:22px;
+	border:0px;
+	background:transparent;
+	font-size:12px;
+	padding-top:3px;
+}

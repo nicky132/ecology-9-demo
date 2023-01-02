@@ -1,0 +1,55 @@
+.K13_select {
+	width: 70px;
+/*	padding-right: 30px;*/
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	position: relative;
+	z-index: 9999;
+	vertical-align: middle;
+	/*background: url(../images/select_wev8.png) no-repeat right top;*/
+}
+
+.K13_select:hover {/* background: url(../images/select_wev8.png) no-repeat right -30px;*/ }
+
+.K13_select div.K13_select_checked {
+	display: block;
+	height: 30px;
+	cursor: default;
+	text-align:right;
+	cursor:pointer;
+
+/*	background: url(../images/select_wev8.png) no-repeat 0 -60px;*/
+}
+
+.K13_select div.K13_select_list {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	_width: 100px;
+}
+
+.K13_select ol {
+	border: 1px solid #e6e6e6;
+	border-width: 0 1px;
+}
+
+.K13_select ol li {
+	border: 1px solid #dddddd;
+	border-width: 0 0 1px 0;
+	text-align:center;
+	background-color:#d7dce0;
+	color:#000;
+	list-style:none;
+}
+
+.K13_select ol li.hover,.K13_select ol li:hover {
+	cursor: default;
+	background-color:rgb(58, 192, 255)!important;
+	color: #fff;
+}

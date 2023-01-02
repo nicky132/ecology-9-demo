@@ -1,0 +1,864 @@
+BODY {
+	FONT-SIZE: 9pt; MARGIN: 0px; FONT-FAMILY: Verdana; LIST-STYLE-TYPE: circle; 
+	/*
+	scrollbar-base-color:#FFFFCC; scrollbar-face-color:#d6d3ce; SCROLLBAR-HIGHLIGHT-COLOR: #f5f9ff; 
+	SCROLLBAR-SHADOW-COLOR: #D6D3D6; SCROLLBAR-3DLIGHT-COLOR: #D6D3D6; SCROLLBAR-ARROW-COLOR: #797979; 
+	SCROLLBAR-TRACK-COLOR: #EFF3F7; SCROLLBAR-DARKSHADOW-COLOR: #ffffff;*/
+
+	
+
+
+}
+TABLE {
+	FONT-SIZE: 9pt; FONT-FAMILY: Verdana
+}
+TABLE.Form {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: medium none; WIDTH: 100%; BORDER-BOTTOM: medium none
+}
+TABLE.Form TR {
+	
+}
+TABLE.Form TR.Section {
+	
+}
+TABLE.Form TR.Section TH {
+	TEXT-INDENT: -1pt; TEXT-ALIGN: left
+}
+TABLE.Form TR.Separator {
+	HEIGHT: 4px
+}
+TABLE.Form TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+TABLE.Form TD.Field {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 2px; BACKGROUND-COLOR: #efefef
+}
+TABLE.Form TD.Sep1 {
+	BACKGROUND-IMAGE: url(../images/Sep1_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.Form TD.Sep2 {
+	BACKGROUND-IMAGE: url(../images/Sep2_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.Form TD.Sep3 {
+	BACKGROUND-IMAGE: url(../images/Sep3_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.ListShort {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+TABLE.ListShort TR {
+	
+}
+TABLE.ListShort TR.Section {
+	
+}
+TABLE.ListShort TR.Section TH {
+	TEXT-ALIGN: left
+}
+TABLE.ListShort TR.Separator {
+	HEIGHT: 3px
+}
+TABLE.ListShort TR.Header {
+	COLOR: #000000; BACKGROUND-COLOR: #d6d3ce
+}
+TABLE.ListShort TR.Header TD {
+	BORDER-RIGHT: #c5c5c5 1pt solid; PADDING-RIGHT: 3pt; BORDER-TOP: #c5c5c5 1pt solid; FONT-WEIGHT: normal; VERTICAL-ALIGN: text-top; BORDER-LEFT: #c5c5c5 1pt solid; PADDING-TOP: 2pt; BORDER-BOTTOM: #c5c5c5 1pt solid; TEXT-ALIGN: left ; 
+}
+TABLE.ListShort TR.Header TH {
+	BORDER-RIGHT: #c5c5c5 1pt solid; PADDING-RIGHT: 3pt; BORDER-TOP: #c5c5c5 1pt solid; FONT-WEIGHT: normal; VERTICAL-ALIGN: text-top; BORDER-LEFT: #c5c5c5 1pt solid; PADDING-TOP: 2pt; BORDER-BOTTOM: #c5c5c5 1pt solid; TEXT-ALIGN: left
+}
+TABLE.ListShort TR.DataDark {
+	BACKGROUND-COLOR: #e7e7e7
+}
+TABLE.ListShort TR.DataDark TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt; LINE: 100%
+}
+TABLE.ListShort TR.DataLight {
+	BACKGROUND-COLOR: #f5f5f5
+}
+TABLE.ListShort TR.DataLight TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt; LINE: 100%
+}
+TABLE.ListShort TR.DataField {
+	BACKGROUND-COLOR: #efefef
+}
+TABLE.ListShort TR.DataField TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt; LINE: 100%
+}
+TABLE.ListShort TR.Selected {
+	CURSOR: pointer; COLOR: #ffffff; BACKGROUND-COLOR: #959595
+}
+TABLE.ListShort TR.Selected TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListShort TR.DataOutline1 {
+	FONT-WEIGHT: bold; COLOR: #ce0031; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListShort TR.DataOutline1 TD {
+	PADDING-RIGHT: 4pt; BORDER-TOP: #daacb7 1pt solid; PADDING-LEFT: 1pt
+}
+TABLE.ListShort TR.DataOutline2 {
+	FONT-WEIGHT: bold; COLOR: #1d9dff; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListShort TR.DataOutline2 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListShort TR.DataOutline3 {
+	FONT-WEIGHT: bold; COLOR: #939393; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListShort TR.DataOutline3 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListShort TR.DataOutline4 {
+	FONT-WEIGHT: bold; COLOR: #fbaa2b; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListShort TR.DataOutline4 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListShort TR.Total TD {
+	BORDER-RIGHT: #b4b4b4 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: #b4b4b4 1pt solid; PADDING-LEFT: 1pt; FONT-WEIGHT: bold; VERTICAL-ALIGN: text-top; BORDER-LEFT: #b4b4b4 1pt solid; BORDER-BOTTOM: #b4b4b4 1pt solid
+}
+TABLE.ListShort TD.Sep1 {
+	BACKGROUND-IMAGE: url(/images/Sep1_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.ListShort TD.Sep2 {
+	BACKGROUND-IMAGE: url(/images/Sep2_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.ListShort TD.Sep3 {
+	BACKGROUND-IMAGE: url(/images/Sep3_wev8.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.Monitor {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 22px
+}
+TABLE.Monitor TD.Entity {
+	BORDER-RIGHT: #7a90b2 1pt solid; BORDER-TOP: #7a90b2 1pt solid; PADDING-LEFT: 2pt; BORDER-LEFT: #7a90b2 1pt solid; BORDER-BOTTOM: #7a90b2 1pt solid; BACKGROUND-COLOR: #d6d3ce
+}
+
+
+BUTTON.btnFlow, BUTTON.BtnFlow, BUTTON.AddDocFlow {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; *PADDING-LEFT: 8px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/BacoButton1_wev8.gif); PADDING-BOTTOM: 2px; MARGIN: 2px 0px 1px 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 53px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left;
+}
+BUTTON.btnFlowd {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 8px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/BacoButtond1_wev8.gif); PADDING-BOTTOM: 2px; MARGIN: 2px 0px 1px 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 114px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+
+
+
+BUTTON.btnMove {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 2px; PADDING-LEFT: 24px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/btnCopy_wev8.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 114px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+
+BUTTON.btnPrint {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 2px; PADDING-LEFT: 24px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/btnPrint_wev8.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 114px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+
+BUTTON.btnNext {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 2px; PADDING-LEFT: 7px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/BacoButton2_wev8.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 101px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1pt; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+BUTTON.btnTop {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 2px; PADDING-LEFT: 7px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/BacoButton2_wev8.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 101px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1pt; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+BUTTON.btnHelp {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnHelp_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 20px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+BUTTON.btnLittlePrint {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnLittlePrint_wev8.gif);OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 23px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+BUTTON.btnFavorite {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnFavorite_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 20px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+BUTTON.btnSetting {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(/page/element/Picture/resource/image/relateCwork_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 20px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+
+BUTTON.btnBack {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/WeaverBack_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 20px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+BUTTON.btnValidate {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnValidate_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 20px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+
+BUTTON.btnExcel {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 2px; PADDING-LEFT: 24px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/excel_wev8.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; MARGIN-LEFT: 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 114px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: left
+}
+BUTTON.Browser {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/BacoBrowser_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 16px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent
+}
+BUTTON.Browser1 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/ecology8/workflow/setting_wev8.png); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 18px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; BACKGROUND-COLOR: transparent
+}
+BUTTON.AddDoc {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/workPlan_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 55px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; BACKGROUND-COLOR: transparent;padding-top:0px;
+}
+
+BUTTON.AddDocFlow {
+	/*BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/addDocsFlow_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 45px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent*/
+}
+
+BUTTON.WorkPlan {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/workPlan_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 55px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 20px; BACKGROUND-COLOR: transparent
+}
+BUTTON.Calendar {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/BacoCalendar_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 16px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent
+}
+BUTTON.Clock {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/BacoCalendar_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 16px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent
+}
+BUTTON.Calculate {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/BacoCalculate_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 16px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent
+}
+
+BUTTON.btnOk {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnOk_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 29px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px
+}
+BUTTON.btnClear {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/btnClear_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 29px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px; BACKGROUND-COLOR: transparent
+}
+BUTTON.rightClickMenuOut {
+	BACKGROUND-COLOR: #3081BB; BORDER-LEFT:1px ridge ;BORDER-RIGHT:1px ridge ; BORDER-TOP: 1px ridge ; BORDER-BOTTOM: 1px ridge; PADDING-LEFT: 4px; PADDING-TOP: 1px; PADDING-BOTTOM: 2px; CURSOR: pointer; FONT-FAMILY: 宋体; FONT-SIZE: 8pt; COLOR: #FFFFFF; TEXT-ALIGN: left
+}
+BUTTON.rightClickMenuOver {
+	BACKGROUND-COLOR: #3094CA; BORDER-LEFT:1px solid ;BORDER-RIGHT:1px solid ; BORDER-TOP: 1px solid ; BORDER-BOTTOM: 1px ridge; PADDING-LEFT: 4px; PADDING-TOP: 1px; PADDING-BOTTOM: 2px; CURSOR: pointer; FONT-FAMILY: 宋体; FONT-SIZE: 8pt; COLOR: #FFFFFF; TEXT-ALIGN: left
+}
+
+
+
+
+
+BUTTON.topClickMenuOut {
+	cursor:pointer;
+	margin-right:8px;	
+}
+
+
+BUTTON.topClickMenuOver {
+	cursor:pointer;
+	margin-right:8px;	
+}
+
+
+
+TABLE.topmenuTable {
+	BACKGROUND-COLOR: #ECECEC;
+	border:1px solid #979797;
+}
+BUTTON.homePageToolBtnOut {
+	BACKGROUND-COLOR: #BFBFBF; WIDTH:20px; HEIGHT:20px; BORDER-LEFT:medium none; BORDER-RIGHT:medium none; BORDER-TOP: medium none; BORDER-BOTTOM: medium none; PADDING-LEFT: 1px; PADDING-TOP: 1px; PADDING-BOTTOM: 1px; CURSOR: pointer; FONT-FAMILY: 宋体; FONT-SIZE: 8pt; COLOR: #FFFFFF; TEXT-ALIGN: left
+}
+BUTTON.homePageToolBtnOver {
+	BACKGROUND-COLOR: #BFBFBF; WIDTH:20px; HEIGHT:20px; BORDER-LEFT:1px outset ;BORDER-RIGHT:1px outset ; BORDER-TOP: 1px outset ; BORDER-BOTTOM: 1px outset; PADDING-LEFT: 1px; PADDING-TOP: 1px; PADDING-BOTTOM: 1px; CURSOR: pointer; FONT-FAMILY: 宋体; FONT-SIZE: 8pt; COLOR: #FFFFFF; TEXT-ALIGN: left
+}
+BUTTON.homePageToolBtnSelect {
+	BACKGROUND-COLOR: #BFBFBF; WIDTH:20px; HEIGHT:20px; BORDER-LEFT:1px inset ;BORDER-RIGHT:1px inset ; BORDER-TOP: 1px inset ; BORDER-BOTTOM: 1px inset; PADDING-LEFT: 1px; PADDING-TOP: 1px; PADDING-BOTTOM: 1px; CURSOR: pointer; FONT-FAMILY: 宋体; FONT-SIZE: 8pt; COLOR: #FFFFFF; TEXT-ALIGN: left
+}
+
+DIV.Btnbar {
+	
+}
+DIV.HdrTitle {
+	BACKGROUND-COLOR: #f4f4f4
+}
+DIV.HdrProps {
+	PADDING-LEFT: 2pt; FONT-SIZE: 9pt; COLOR: #676767; HEIGHT: 14px; BACKGROUND-COLOR: #e5e5e5
+}
+DIV.HdrProps TD {
+	COLOR: #676767
+}
+DIV.Chart {
+	LEFT: 10px; POSITION: relative; TOP: 10px
+}
+TABLE.ChartTop {
+	BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; BORDER-LEFT: 2px outset; CURSOR: pointer; COLOR: white; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #0070BF
+}
+TABLE.ChartGroup {
+	BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; BORDER-LEFT: 2px outset; CURSOR: pointer; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #659BF5; TEXT-ALIGN: center
+}
+TABLE.ChartCompany {
+	BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; BORDER-LEFT: 2px outset; CURSOR: pointer; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #51B5EE; TEXT-ALIGN: center
+}
+TABLE.ChartInactive {
+	BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; BORDER-LEFT: 2px outset; CURSOR: pointer; COLOR: gray; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #ffcccc; TEXT-ALIGN: center
+}
+TABLE.ChartDisabled {
+	BORDER-RIGHT: 2px outset; BORDER-TOP: 2px outset; BORDER-LEFT: 2px outset; COLOR: gray; BORDER-BOTTOM: 2px outset; BACKGROUND-COLOR: #ffcc00; TEXT-ALIGN: center
+}
+TD.ChartTop {
+	COLOR: white; HEIGHT: 100%; BACKGROUND-COLOR: #1397D4; TEXT-ALIGN: center
+}
+TD.ChartGroup {
+	COLOR: black; HEIGHT: 100%; BACKGROUND-COLOR: #c6c3bd; TEXT-ALIGN: center
+}
+TD.ChartCompany {
+	COLOR: black; HEIGHT: 100%; BACKGROUND-COLOR: #d6d3ce; TEXT-ALIGN: center
+}
+TD.ChartInactive {
+	COLOR: gray; HEIGHT: 100%; BACKGROUND-COLOR: #ffcc99; TEXT-ALIGN: center
+}
+TD.ChartDisabled {
+	COLOR: gray; HEIGHT: 100%; BACKGROUND-COLOR: #ffcc66; TEXT-ALIGN: center
+}
+TD.ChartDescription {
+	COLOR: black; BACKGROUND-COLOR: gainsboro; TEXT-ALIGN: left
+}
+TD.ChartValue {
+	COLOR: black; BACKGROUND-COLOR: gainsboro; TEXT-ALIGN: right
+}
+TD.ChartCell {
+	WIDTH: 100px; COLOR: black; BACKGROUND-COLOR: gainsboro; TEXT-ALIGN: right
+}
+TD.ChartValueLow {
+	COLOR: black; BACKGROUND-COLOR: #ff9900; TEXT-ALIGN: right
+}
+TD.ChartValueHigh {
+	COLOR: black; BACKGROUND-COLOR: #99ff33; TEXT-ALIGN: right
+}
+TD.Selected
+{
+    CURSOR: pointer;
+    COLOR: #FFFFFF;
+    BACKGROUND-COLOR: #959595
+}
+.FieldLong {
+	WIDTH: 267px
+}
+.FieldLongB {
+	WIDTH: 242px
+}
+.FieldxLong {
+	WIDTH: 696px
+}
+.FieldShort {
+	WIDTH: 126px
+}
+.FieldxShort {
+	WIDTH: 50px
+}
+.saveHistory {
+	BEHAVIOR: url(#default#savehistory)
+}
+INPUT.text {
+	FONT-SIZE: 100% 
+}
+SELECT {
+	FONT-SIZE: 100%; FONT-FAMILY: 宋体, MS Sans Serif, Arial
+}
+select.multiSelect{
+	height:100%;
+}
+TEXTAREA {
+	FONT-SIZE: 100%; FONT-FAMILY: 宋体, MS Sans Serif, Arial
+}
+FORM {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+PRE {
+	FONT-SIZE: 14pt
+}
+
+.titlename {
+ 	FONT-WEIGHT: bold; FONT-SIZE: 16pt
+ }
+
+ .redgraph {
+	BACKGROUND-IMAGE: url(/images/BDStatRed_wev8.jpg); BACKGROUND-REPEAT: repeat-x
+}
+.bluegraph {
+	BACKGROUND-IMAGE: url(/images/BDStatBlue_wev8.jpg); BACKGROUND-REPEAT: repeat-x
+}
+.greengraph {
+	BACKGROUND-IMAGE: url(/images/BDStatGreen_wev8.jpg); BACKGROUND-REPEAT: repeat-x
+}
+.yellowgraph {
+	BACKGROUND-IMAGE: url(/images/BDStatYellow_wev8.jpg); BACKGROUND-REPEAT: repeat-x
+}
+BUTTON.DELROW {
+	BORDER-RIGHT: medium none;
+	BORDER-TOP: medium none;
+	BACKGROUND-IMAGE: url(/images/BacoDelete_wev8.GIF);
+	OVERFLOW: hidden;
+	BORDER-LEFT: medium none;
+	CURSOR: pointer;
+	WIDTH: 16px;
+	HEIGHT: 16px;
+	BORDER-BOTTOM: medium none;
+	BACKGROUND-REPEAT: no-repeat;
+	BACKGROUND-COLOR: transparent;
+}
+
+.smallfont {
+	FONT-SIZE: 10pt
+}
+.fontred {
+    COLOR: #FF0000;
+}
+
+
+A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A:visited {
+	TEXT-DECORATION: underline}
+.clickRightMenu{
+	BORDER-RIGHT: none;	
+	BORDER-TOP: none; 
+	BORDER-LEFT: none;
+	BORDER-BOTTOM: none; 
+	PADDING-RIGHT: 5px; 
+	DISPLAY: none; 
+	PADDING-LEFT: 5px; 
+	LEFT: -10000px;
+	PADDING-BOTTOM: 3px; 
+	WIDTH: 1px; PADDING-TOP: 3px; 	
+	POSITION: absolute; 
+	TOP: -10000px
+}
+
+.clickRightMenuOver{
+	BORDER-RIGHT: #001E9E 1px solid; 
+	BORDER-TOP: #001E9E 1px solid; 
+	BORDER-LEFT: #001E9E 1px solid;
+	PADDING-RIGHT: 10px;	
+	DISPLAY: block;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 0px;
+	FONT: 12px verdana; 	
+	WIDTH: 1px; 
+	COLOR: #000000; 
+	PADDING-TOP: 4px; 	
+	HEIGHT: 24px; 
+	TEXT-DECORATION: none;
+	BORDER-BOTTOM: #001E9E 1px solid; 
+	BACKGROUND-COLOR: #EBF8FE
+}
+.clickRightMenuOut{
+	BORDER-RIGHT: #fffffa 1px solid;
+	BORDER-TOP: #fffffa 1px solid;
+	BORDER-LEFT: #fffffa 1px solid; 
+	PADDING-RIGHT: 10px;	
+	DISPLAY: block;
+	PADDING-LEFT: 10px;
+	PADDING-BOTTOM: 0px;
+	FONT: 12px verdana; 	
+	WIDTH: 1px; 
+	COLOR: #000000; 
+	PADDING-TOP: 4px; 	
+	HEIGHT: 24px; 
+	TEXT-DECORATION: none;
+	BORDER-BOTTOM: #fffffa 1px solid
+}
+
+
+
+/******* 2003-09-20开始修改 *********/
+
+
+
+
+
+
+
+
+/*****2005-09-09 董平 为了文档回复显示 *****/
+TABLE.ViewForm DIV.ReplyContentDiv {
+	background-color: #F3F3F3;overflow: auto; height: 150px; width: 100%;
+}
+
+/******* end *********/
+
+TD.Field A {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+TD.Field A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TD.Field A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+TD.Field A:visited {
+	TEXT-DECORATION: underline}
+
+
+
+.InputStyle{
+}
+.Label{
+BORDER-LEFT-STYLE: none; 
+BORDER-RIGHT-STYLE: none;
+BORDER-TOP-STYLE: none ;
+BORDER-BOTTOM: none;
+background-color:transparent;
+text-align: center
+}
+.InputStyle_1{
+BORDER-BOTTOM: #626262 1px solid; 
+BORDER-LEFT: #626262 1px solid; 
+BORDER-RIGHT: #626262 1px solid; 
+BORDER-TOP: #626262 1px solid; 
+BACKGROUND-COLOR: #FFFFFF;
+padding-top:2px
+}
+
+
+
+
+TR.Header A {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.Header A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TR.Header A:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.Header A:visited {
+	TEXT-DECORATION: underline}
+TABLE.ListStyle TR.Header TD {
+	COLOR: #003366 
+}
+TABLE.ListStyle TR.Header TH {
+	COLOR: #000000 ;
+	TEXT-ALIGN: left
+}
+
+
+TABLE.ListStyle TR.HeaderForWf {
+	COLOR: #003366; BACKGROUND-COLOR: #E4E4E4 ; HEIGHT: 30px ;BORDER-Spacing:1pt
+}
+TR.HeaderForWf A {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForWf A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TR.HeaderForWf A:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForWf A:visited {
+	TEXT-DECORATION: underline}
+TABLE.ListStyle TR.HeaderForWf TD {
+	COLOR: #003366 
+}
+TABLE.ListStyle TR.HeaderForWf TH {
+	COLOR: #003366 ;
+	TEXT-ALIGN: left
+}
+
+TR.HeaderForXtalbe A {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForXtalbe A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TR.HeaderForXtalbe A:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForXtalbe A:visited {
+	TEXT-DECORATION: underline}
+
+
+
+
+TABLE.ListStyle TR.DataField {
+	BACKGROUND-COLOR: #efefef
+}
+TABLE.ListStyle TR.DataField TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt; LINE: 100%
+}
+
+TABLE.ListStyle TR.DataOutline1 {
+	FONT-WEIGHT: bold; COLOR: #ce0031; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListStyle TR.DataOutline1 TD {
+	PADDING-RIGHT: 4pt; BORDER-TOP: #daacb7 1pt solid; PADDING-LEFT: 1pt
+}
+TABLE.ListStyle TR.DataOutline2 {
+	FONT-WEIGHT: bold; COLOR: #1d9dff; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListStyle TR.DataOutline2 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListStyle TR.DataOutline3 {
+	FONT-WEIGHT: bold; COLOR: #939393; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListStyle TR.DataOutline3 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListStyle TR.DataOutline4 {
+	FONT-WEIGHT: bold; COLOR: #fbaa2b; BACKGROUND-COLOR: #ffffff
+}
+TABLE.ListStyle TR.DataOutline4 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.ListStyle TR.Total TD {
+	BORDER-RIGHT: #b4b4b4 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: #b4b4b4 1pt solid; PADDING-LEFT: 1pt; FONT-WEIGHT: bold; VERTICAL-ALIGN: text-top; BORDER-LEFT: #b4b4b4 1pt solid; BORDER-BOTTOM: #b4b4b4 1pt solid
+}
+
+TABLE.ListStyle TR.Line2 {
+	 BACKGROUND-COLOR: #EFEFEF ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.ListStyle TD.Line1 {
+	 BACKGROUND-COLOR: #A1A1A1 ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 2px
+}
+
+
+
+
+
+TABLE.ReportStyle {
+	width:"100%" ;
+	BACKGROUND-COLOR: #000000 	
+}
+TABLE.ReportStyle A {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+TABLE.ReportStyle A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TABLE.ReportStyle A:link {
+	COLOR: blue; TEXT-DECORATION: underline
+}
+TABLE.ReportStyle A:visited {
+	TEXT-DECORATION: underline}
+
+TABLE.ReportStyle TR.Header {
+	COLOR: #FFFFFF; BACKGROUND-COLOR: #BFBFBF ; HEIGHT: 22px 
+}
+TR.Header A {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.Header A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TR.Header A:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.Header A:visited {
+	TEXT-DECORATION: underline}
+TABLE.ReportStyle TR.Header TD {
+	COLOR: #000000 
+}
+TABLE.ReportStyle TR.Header TH {
+	COLOR: #000000 ;
+	TEXT-ALIGN: left
+}
+
+TABLE.ReportStyle TR {
+	BACKGROUND-COLOR: #FFFFFF 
+}
+
+/*------------xtable-------start----------*/
+.weaverTable{
+    font-size:9pt;
+	table-layout:fixed;
+	width:100%;
+	BORDER-Spacing:1pt ; 	
+ }
+.xTable_table{
+	font-size:9pt;
+}
+.xTable_message,#loading{
+	border:1px solid #e1e1e1;
+	background:white;
+	color:#59627c;
+	position:absolute;
+	padding:9px!important;
+	z-index:20001;
+	font-size:14px;
+	background-image:url(/images/ecology8/onload_wev8.gif)!important;
+	background-position:15px 50%!important;
+	background-repeat:no-repeat!important;
+	padding-left:48px!important;
+}
+
+#loading{
+	left:45%;
+	top:40%;
+}
+
+#loading span:first-child{
+	display:none;
+}
+.xTable_info{
+	margin-top:5px;
+	text-align:right;
+	font-size:9pt;
+}	
+.xTable_line{
+	 BACKGROUND-COLOR: #C8C8C8 ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px!important
+}
+.xTable_line1{
+	 BACKGROUND-COLOR: #808080 ; BACKGROUND-REPEAT: repeat-x; HEIGHT:1px!important
+}
+.xTable_th{
+	background:#C8C8C8;
+	color:#003366;
+	cursor:pointer;
+	height:12pt;
+	font-size:9pt;
+	text-align: left;
+	BORDER-Spacing:1pt
+}
+
+.xTable_pageda{
+	font-family:Webdings;
+	font-size:10pt;
+	color:#CCCCCC;
+	cursor:default;
+}
+.xTable_pageua{
+	font-family:Webdings;
+	font-size:10pt;
+	color:#330000;
+	text-decoration : none 
+}
+
+.xTable_even{
+font-size:9pt;
+	BACKGROUND-COLOR: #FFFFFF ;  BORDER-Spacing:1pt
+}
+.xTable_odd{
+font-size:9pt;
+	BACKGROUND-COLOR: #F7F7F7 ; BORDER-Spacing:1pt 
+}
+.xTable_Selected
+{  
+    BACKGROUND-COLOR: #EAEAEA;BORDER-Spacing:1pt
+}
+
+/*------------xtable-----end-----------*/
+
+
+hr{margin:0;padding:0;height:2px;color:#CCCCCC}
+h2.title{margin:5;text-align:center;font-size:20px;font-weight:bold;}
+
+
+span.href{cursor:pointer;text-decoration:underline;color:blue}
+div.help{border:0px solid #000;margin-top:10px;padding:5px;font-weight:bold}
+.tabHeadDiv{
+	width:100%;
+	position:absolute;
+	left:0px;
+	top:2px;
+	CELLSPACING:0;
+}
+.formSplitSpanIn{
+	posiotion:relative;
+	height:26px;
+	font-size:12px;
+	TEXT-DECORATION:none;
+	color:#000000;
+	cursor:pointer;
+	vertical-align : middle;
+	text-align:center;
+	padding-top: 8px;
+	border-top:1px #D0D0D0 solid;
+	border-right:1px #D0D0D0 solid;
+	word-break:keep-all;
+	word-wrap:normal;
+	_filter : progid:DXImageTransform.Microsoft.Gradient ( enabled=bEnabled , startColorStr=#FFE7E7E7 , endColorStr=#FFFFFFFF );
+}
+.formSplitSpanOut{
+	height:25px;
+	font-size:12px;
+	TEXT-DECORATION:none;
+	color:#000000;
+	cursor:pointer;
+	vertical-align : middle;
+	text-align:center;
+	padding-top: 8px;
+	border-top:1px #D0D0D0 solid;
+	border-bottom:1px #D0D0D0 solid;
+	border-right:1px #D0D0D0 solid;
+	word-break:keep-all;
+	word-wrap:normal;
+	_filter : progid:DXImageTransform.Microsoft.Gradient ( enabled=bEnabled , startColorStr=#FFFFFFFF , endColorStr=#FFE7E7E7 );
+}
+.borderFormSplitSpan{
+	height:26px;
+	width:1px;
+	cursor:pointer;
+	vertical-align : middle;
+	background-color: #D0D0D0;
+}
+.lastFormSplitSpan{
+	height:26px;
+	font-size:12px;
+	TEXT-DECORATION:none;
+	color:#000000;
+	vertical-align : middle;
+	text-align:center;
+	padding-top: 8px;
+	border-bottom:1px #D0D0D0 solid;
+}
+.formSplitDiv{
+	width:100%
+
+}
+.detailAddTd{
+	height : 24px;
+	borderBottom : 1px #ffffff solid;
+	BACKGROUND-COLOR : #E7E7E7;
+	word-wrap : break-word;
+	word-break : break-all;
+}
+
+BUTTON.showallresource{
+	/*BORDER-RIGHT: medium none; BORDER-TOP: medium none; BACKGROUND-IMAGE: url(../images/showallresource_wev8.gif); OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 85px; CURSOR: pointer; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px; BACKGROUND-COLOR: transparent*/
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; *PADDING-LEFT: 8px; FONT-SIZE: 8pt; BACKGROUND-IMAGE: url(../images/showallresource_wev8.gif); PADDING-BOTTOM: 2px; MARGIN: 2px 0px 1px 2px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 70px; CURSOR: pointer; COLOR: #000000; PADDING-TOP: 1px; BORDER-BOTTOM: medium none; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Verdana; HEIGHT: 20px; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center;
+}
+
+#HelpFrame {
+	BORDER:none;	
+} 
+
+#phraseselect {
+	width:100%!important;
+}
+
+.btn_getsapdata {
+ BORDER-RIGHT: #002D96 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #002D96 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#9DBCEA); BORDER-LEFT: #002D96 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #002D96 1px solid
+}
+
+.moveMousePoint
+{
+	cursor:move;
+}
+.textHighLight
+{
+	background-color: #003667;cursor:pointer;color:#ffffff;
+}
+.e8_loading{
+	margin-left:5px;
+	background-image: url("/images/ecology8/loadingSearch_wev8.gif");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 30px;
+    top:80px;
+	text-align:center;
+	position:absolute;
+}
+
+.e8_querySelected{
+	background-color: #003667;
+	color:#ffffff !important;
+}
+
+#e8emptyInfo{
+	width:100%;
+	text-align:center;
+	top:11px;
+	position:absolute;
+}
+

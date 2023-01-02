@@ -1,0 +1,146 @@
+	.zd_btn_cancle,.zd_btn_submit,.zd_btn_submit2{
+		color: #007aff;
+		height: 30px;
+		line-height: 30px;
+		padding-left: 18px;
+		padding-right: 18px;
+		font-size:12px;
+		cursor: pointer;
+		position: relative;
+		top: 0px;
+		vertical-align:middle;
+		border:none;
+		background-color:transparent;
+		outline:none;
+	}
+	
+	.zd_btn_cancleHover,
+	.zd_btn_submit_hover,
+	.zd_btn_submit2_hover,
+	.e8_btn_mousedown{
+		color: #FFFFFF;
+		background-color: #2690E3;
+	}
+	
+	.e8_sep_line{
+		height:30px;
+		top:2px;
+		line-height:30px;
+		position:relative;
+		color:#cccccc;
+	}
+	
+	
+	.zDialog_div_bottom{
+		position:fixed;
+		padding-top:5px!important;
+		padding-bottom:5px!important;
+		background-color: #FAFAFA;
+		z-index:3;
+		bottom:0;
+		width:100%; 
+		border:none;
+		border-top:1px solid #dadedb;
+		top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop+(documentElement.clientHeight - this.clientHeight):document.body.scrollTop+(document.body.clientHeight - this.clientHeight));
+	}
+	
+	.zDialog_div_bottom table tr td{
+		padding-bottom: 0px;
+	}
+	
+	.zDialog_div_content{
+		overflow-y:auto;
+		z-index:2;	
+		position:relative;
+	}
+	
+	.dialogPadding{
+		padding:10px;
+	}
+	
+	.addbtn { 	
+	border:none;
+	BACKGROUND: url(button/add_wev8.png) no-repeat;
+	color:#333;
+	WIDTH: 21px;
+	height:21px;
+	text-align:left;
+	cursor:pointer;
+	padding-left:10px;
+	padding-top:2px;
+	margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.addbtn2 { 	
+	border:none;BACKGROUND: url(button/add2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.addbtnB { 	
+	border:none;
+	BACKGROUND: url(button/badd_wev8.png) no-repeat;
+	color:#333;
+	WIDTH: 21px;
+	height:21px;
+	text-align:left;
+	cursor:pointer;
+	padding-left:10px;
+	padding-top:2px;
+	margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.addbtnB2 { 	
+	border:none;BACKGROUND: url(button/badd2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.sapbtn { 	
+	border:none;
+	BACKGROUND: url(button/sap_wev8.png) no-repeat;
+	color:#333;
+	WIDTH: 21px;
+	height:21px;
+	text-align:left;
+	cursor:pointer;
+	padding-left:10px;
+	padding-top:2px;
+	margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.sapbtn2 { 	
+	border:none;BACKGROUND: url(button/sap2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	.downloadbtn { 	
+	border:none;BACKGROUND: url(button/download_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.downloadbtn2 { 	
+	border:none;BACKGROUND: url(button/download2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+
+	.copybtn { 	
+	border:none;BACKGROUND: url(button/copy_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.copybtn2 { 	
+	border:none;BACKGROUND: url(button/copy2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.delbtn { 	
+	border:none;BACKGROUND: url(button/delete_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	
+	.delbtn2 { 	
+	border:none;BACKGROUND: url(button/delete2_wev8.png) no-repeat;color:#333;WIDTH: 21px;height:21px;text-align:left;cursor:pointer;padding-left:10px;padding-top:2px;margin-right:5px;
+	background-position:50% 50%;
+	}
+	

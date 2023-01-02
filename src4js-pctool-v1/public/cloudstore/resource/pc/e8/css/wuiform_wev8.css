@@ -1,0 +1,24 @@
+.opacity_0{opacity: 0; filter: alpha(opacity=0);z-index:5;position:relative;}
+
+.textarea,.input{border:1px solid #E7EAEE;border-top-color:#C0CAD2;background:#fff url("images/inputbg_wev8.png") repeat-x;}
+.textarea_over,.input_over{border:1px solid #DEEBF7;border-top-color:#AACDEA;background:#fff  url("images/inputbg_over_wev8.png") repeat-x;outline:none;}
+.input{height:23px;padding:3 0 0 3;}
+.textarea{overflow:auto;} 
+
+
+.select{position:absolute;height: 22px;color: #fff;font: 12px/21px arial,sans-serif;overflow: hidden;cursor:pointer;}
+.select .select_left{width: 5px; height: 22px;background: url(images/select_left_wev8.png) no-repeat;overflow: hidden;float:left;}
+.select .select_center{height:22px;color: #4f6b72;font: 12px/21px arial,sans-serif;background: url(images/select_center_wev8.png) repeat-x;overflow: hidden;float:left;}
+.select .select_right{width:22px;height: 22px;background: url(images/select_right_wev8.png) no-repeat;overflow: hidden;float:left;}
+.select .select_end{clear:left;}
+
+
+
+.checkbox{position:absolute;width:19px;height:19px;background:url(images/checkbox_wev8.gif);}
+.radio{width:19px!important;height:19px;background:url(images/radio_wev8.gif);} 
+
+
+.filefield{position:absolute;height: 21px;font: 12px/21px arial,sans-serif;overflow: hidden;cursor:pointer;}
+.filefield .file_left{width: 7px; height: 21px;background: url(images/file_left_wev8.png) no-repeat;overflow: hidden;}
+.filefield .file_center{height: 21px;font: 12px/21px arial,sans-serif;background: url(images/file_center_wev8.png) repeat-x;overflow: hidden;}
+.filefield .file_right{width:60px;height: 21px;background: url(images/file_right_wev8.png) no-repeat;overflow: hidden;}

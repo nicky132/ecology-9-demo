@@ -1,0 +1,290 @@
+	
+	/*顶部菜单*/
+	.topMenuTitle *{
+		Font-Family:"微软雅黑" !important;
+	}
+	
+	/*顶部菜单*/
+	.topMenuTitle{
+		vertical-align:middle;
+		height:40px;
+		margin:0px;
+		width:100%;
+		border-bottom:1px solid #DADADA;
+		position:relative;
+		background-color:rgb(245,245,245);
+		z-index:2;
+	}
+	
+	#topTitle{
+		display:none;
+	}
+	
+	#tabDiv{
+		display:none;
+	}
+		
+
+	/*
+	 * 按钮
+	 */
+	.btn,.e8_btn,.e8_btn_top,.e8_btn_cancel,.e8_btn_submit{
+		border:0px;
+		cursor:pointer;
+		overflow:visible;
+		font-size:12px;
+	}
+	
+	.btn,.e8_btn,.e8_btn_cancel,.e8_btn_submit{
+		padding-left:18px !important;
+		padding-right:18px !important;
+		height:30px;
+		line-height:30px;
+	}
+	
+	.e8_btn_top_first{
+		color:#fff;
+		background-color:#30b5ff;
+		padding-left:10px !important;
+		padding-right:10px !important;
+		height:23px;
+		line-height:22px;
+		vertical-align:middle;
+		border:1px solid #30b5ff;
+		cursor:pointer;
+			}
+	
+	.e8_btn_top_first_hover,.e8_btn_top_first:hover{
+		background-color:#03a996;
+		/*border:1px solid #03a996;*/
+	}
+	
+	.e8_btn_top_first:hover{
+		border:1px solid #03a996;
+	}
+	
+	.e8_btn_top{
+		padding-left:10px !important;
+		padding-right:10px !important;
+		height:23px;
+		line-height:23px;
+		color:#1098ff;
+		background-color:#FFF;
+		vertical-align:middle;
+		border:1px solid #aecef1;
+		margin-left:-8px;
+	}
+	
+	/*常规按钮*/
+	.e8_btn,.e8_btn_submit,.e8_btn_cancel{
+		background-color:transparent;
+		color:#007aff;
+		word-wrap: normal;
+	}
+	
+	/*取消按钮
+	.e8_btn_cancel{
+		background-color:transparent;
+		color:#117CD3;
+	}*/
+	
+	/*按钮-悬浮*/
+	/*.e8_submit_btnHover{
+		background-color:#2690e3;
+	}*/
+	
+	
+	/*取消按钮-悬浮*/
+	.e8_btn_cancel_btnHover,.e8_submit_btnHover{
+		background-color:#2690e3 !important;
+		color:#FFFFFF !important;
+	}
+	
+	
+	/*顶部菜单中的按钮-悬浮*/
+	.e8_top_btnHover,.e8_btn_top:hover{
+		background-color:#03a996 !important;
+		color:white;
+		border:1px solid #03a996;
+	}
+	
+	/*顶部菜单中的按钮-鼠标按住*/
+	.top_e8_btn_mousedown{
+		background-color:#107DD3;
+	}
+	
+	/*取消按钮-按下*/
+	.cancel_e8_btn_mousedown{
+		/*background-color:#DEDEDE !important;*/
+	}
+	
+	/*按钮-按下*/
+	.submit_e8_btn_mousedown{
+		/*background-color:#2092ED !important;*/
+	}
+	
+	.btnHoverAdvance{
+		background-color: white !important;
+		border-left: 1px solid #dadada !important;
+		border-right: 1px solid #dadada !important;
+		border-top: 1px solid #dadada !important;
+		border-bottom:1px solid #dadada !important;
+	}
+	
+	
+	/*
+	 * 
+	 */
+	.middle{
+		vertical-align:middle;
+	}
+	
+	.advancedSearch{
+		display:-moz-inline-box;
+		display:inline-block;
+		cursor:pointer;
+		position: relative;
+		z-index:2;
+		color:#888686;
+		margin-bottom:0px;
+		height:21px;
+		padding-left:5px;
+		padding-right:5px;
+		line-height:21px;
+		font-size:12px;
+		border-top:1px solid #F5F2F2;
+		border-right:1px solid #F5F2F2;
+		border-bottom:1px solid #F5F2F2;
+		background-color:#fff;
+	}
+	
+	.advancedSearch_new{
+		border-left:1px solid #F5F2F2;
+	}
+	
+	.advancedSearch.click{
+		border-left: 1px solid #dadada;
+		border-right: 1px solid #dadada;
+		border-top: 1px solid #dadada;
+		border-bottom:1px solid transparent;
+		height:28px;
+		line-height:21px;
+		vertical-align:bottom;
+		/*top:3px;
+		height:36px;
+		line-height:36px;
+		background-color:#Fafafa !important;*/
+		
+		/*
+		background-image:url(/images/ecology8/request/arrow-bottom_wev8.png);
+		background-repeat:no-repeat;
+		background-position:95% center;
+		*/
+	}
+
+	.advancedSearch.clickie{
+		height:27px;
+	}
+	
+	#advancedSearchOuterDiv{
+		display:none;
+		position: fixed;
+		background: white;
+		border-bottom: 1px solid #dadada;
+		border-right: 1px solid #dadada;
+		z-index:10001;
+		top:0px;
+		width:100%;
+		overflow:hidden;
+	}
+	.advancedSearchDiv{
+		position:relative;
+		display:none;
+	}
+	
+	#shadowAdvancedSearchOuterDiv{
+		width: 100%; 
+		position: absolute; 
+		z-index: 2; 
+		background-color: rgb(220, 226, 241); 
+		opacity: 0.6; 
+		left: 0px; 
+		display:none;
+		background-position: initial initial; 
+		background-repeat: initial initial;
+	}
+	
+	.e8_shadowDiv{
+		position:absolute;
+		background:transparent;
+		border:none;
+		z-index:1;
+		display:none;
+		height:2px !important;
+		/*background-image:url(/images/ecology8/shadow_wev8.png);
+		background-repeat:repeat-x;*/
+		background-color:#fff;
+	}
+	
+	.advancedSearchDiv .ViewForm{
+		/*border-top:1px solid #dadada;
+		margin-top:15px !important;*/
+	}
+	
+	TABLE.ViewForm TR.e8_advanceTR{
+		border-top:1px solid #dadada;
+		border-bottom:1px solid #dadada;
+		height:15px;
+	}
+	
+	table.TopTitle{
+		display:none !important;
+	}
+	div.divTopTitle {
+		display:none !important;
+	}
+	
+	.xTable_infoTop{
+		display:none !important;
+	}
+	
+	._xTableSplit{
+		margin:0px !important;
+		padding-left:0px !important;
+		padding-right:0px !important;
+		padding-bottom:0px !important;
+	}
+	
+	._xTableOuter{
+		margin:0px !important;
+		padding:0px !important;
+	}
+	
+	.ListStyle{
+		margin:0px !important;
+	}
+	
+	.HeaderForXtalbe{
+		height:30px !important;
+	}
+	.HeaderForXtalbe td{
+		height:30px !important;
+	}
+	
+	.zDialog_td_bottom{
+		position:relative;
+		bottom:0px; 
+		padding-top:5px!important;
+		padding-bottom:5px!important;
+		background-color: #F6F6F6;
+		width:100%; 
+		border:none;
+		border-top:1px solid #dadedb;
+		/*top: expression(eval(document.compatMode && document.compatMode=='CSS1Compat') ? documentElement.scrollTop+(documentElement.clientHeight - this.clientHeight):document.body.scrollTop+(document.body.clientHeight - this.clientHeight));*/
+	}
+	
+	.e8_advanceSep{
+		display: inline-block;
+    	position: absolute;
+    	color:#DADADA;
+	}

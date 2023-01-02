@@ -1,0 +1,56 @@
+.e8menu{
+	position:relative;
+}
+
+.e8menu .e8menu_num_text{
+	background-color:#f5f5f5;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+}
+
+.e8menu .e8menu_num_text,.e8menu .e8menu_num_block{
+	position:absolute;
+	right:20px;
+	z-index:2;
+	top:0;
+	margin-right:0;
+}
+
+.e8menu .e8menu_num_block span{
+	display:inline-block;
+	height:30px;
+	min-height:25px;
+	min-width:25px;
+	text-align:center;
+	line-height:30px;
+	margin-right:0px;
+	padding-left:2px;
+	padding-right:2px;
+	color:#fff;
+}
+
+.e8menu .sepline{
+	/*display:inline-block;*/
+}
+
+.level2 .e8menu_num_block span{
+	height:22px;
+	line-height:22px;
+	min-width:22px;
+}
+
+#overFlowDiv{
+	width:246px;
+}
+
+.ps-container .ps-scrollbar-y{
+	z-index:3;
+}
+
+.ztree li div.curSelectedNode .e8menu .e8menu_num_text{
+	background-color:#0D93F6;
+}
+.e8HoverZtreeDiv:hover .e8menu .e8menu_num_text{
+	background-color:#def0ff;
+}

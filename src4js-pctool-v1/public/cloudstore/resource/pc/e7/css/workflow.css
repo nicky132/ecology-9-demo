@@ -1,0 +1,79 @@
+html{height:100%;}
+TABLE.liststyle TR.Header TD {
+	COLOR: #003366 
+}
+TABLE.liststyle TR.Header TH {
+	COLOR: #003366 ;
+	TEXT-ALIGN: left
+}
+
+
+TABLE.liststyle TR.HeaderForWF {
+	COLOR: #003366; BACKGROUND-COLOR: #E4E4E4 ; HEIGHT: 30px ;BORDER-Spacing:1pt
+}
+TR.HeaderForWF A {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForWF A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+
+TR.HeaderForWF A:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+TR.HeaderForWF A:visited {
+	TEXT-DECORATION: underline}
+TABLE.liststyle TR.HeaderForWF TD {
+	COLOR: #003366 
+}
+TABLE.liststyle TR.HeaderForWF TH {
+	COLOR: #003366 ;
+	TEXT-ALIGN: left
+}
+
+
+table.liststyle { 
+	width: 100% !important;
+}
+TABLE.liststyle TR.DataField {
+	BACKGROUND-COLOR: #efefef
+}
+TABLE.liststyle TR.DataField TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt; LINE: 100%
+}
+
+TABLE.liststyle TR.DataOutline1 {
+	FONT-WEIGHT: bold; COLOR: #ce0031; BACKGROUND-COLOR: #ffffff
+}
+TABLE.liststyle TR.DataOutline1 TD {
+	PADDING-RIGHT: 4pt; BORDER-TOP: #daacb7 1pt solid; PADDING-LEFT: 1pt
+}
+TABLE.liststyle TR.DataOutline2 {
+	FONT-WEIGHT: bold; COLOR: #1d9dff; BACKGROUND-COLOR: #ffffff
+}
+TABLE.liststyle TR.DataOutline2 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.liststyle TR.DataOutline3 {
+	FONT-WEIGHT: bold; COLOR: #939393; BACKGROUND-COLOR: #ffffff
+}
+TABLE.liststyle TR.DataOutline3 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.liststyle TR.DataOutline4 {
+	FONT-WEIGHT: bold; COLOR: #fbaa2b; BACKGROUND-COLOR: #ffffff
+}
+TABLE.liststyle TR.DataOutline4 TD {
+	PADDING-RIGHT: 4pt; PADDING-LEFT: 1pt
+}
+TABLE.liststyle TR.Total TD {
+	BORDER-RIGHT: #b4b4b4 1pt solid; PADDING-RIGHT: 4pt; BORDER-TOP: #b4b4b4 1pt solid; PADDING-LEFT: 1pt; FONT-WEIGHT: bold; VERTICAL-ALIGN: text-top; BORDER-LEFT: #b4b4b4 1pt solid; BORDER-BOTTOM: #b4b4b4 1pt solid
+}
+
+TABLE.liststyle TR.Line2 {
+	 BACKGROUND-COLOR: #EFEFEF ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 3px
+}
+TABLE.liststyle TD.Line1 {
+	 BACKGROUND-COLOR: #A1A1A1 ; BACKGROUND-REPEAT: repeat-x; HEIGHT: 2px
+}
+

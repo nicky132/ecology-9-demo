@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>水印效果预览</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="/cloudstore/resource/pc/com/v1/index.min.css">
+    <link rel="stylesheet" type="text/css" href="/cloudstore/resource/pc/com/v1/ecCom.min.css">
+    <script type="text/javascript" src="/cloudstore/resource/pc/jquery/jquery-1.8.3.min.js"></script>
+    <style>html,body,#container{ height: 100%;overflow: hidden}</style>
+    <script>
+      // 根据环境加载配置文件
+      var curHost = window.location.hostname;
+      var hostArr = [
+        '192.168.7.224',
+        '192.168.1.73',
+        '192.168.1.71'
+      ];
+      if (hostArr.indexOf(curHost) === -1) {
+        document.writeln('<script src="/spa/coms/ssoConfig/config.js"' + '>' + '<' + '/' + 'script>');
+      } else {
+        document.writeln('<script src="/spa/coms/ssoConfig/config-dev.js"' + '>' + '<' + '/' + 'script>');
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 style="text-align: center">水印预览效果</h1>
+      <p>水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果</p>
+      <p>水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果</p>
+      <p>水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果</p>
+      <p>水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果</p>
+      <p>水印预览效果水印预览效果水印预览效果水印预览效果水印预览效果</p>
+    </div>
+    <script type="text/javascript" src="/cloudstore/resource/pc/polyfill/polyfill.min.js"></script>
+    <!-- Polyfills -->
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="/cloudstore/resource/pc/shim/shim.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="/cloudstore/resource/pc/react16/react.production.min.js"></script>
+    <script type="text/javascript" src="/cloudstore/resource/pc/react16/react-dom.production.min.js"></script>
+    <script type="text/javascript" src="/cloudstore/resource/pc/react16/prop-types.min.js"></script>
+    <script type="text/javascript" src="/cloudstore/resource/pc/react16/create-react-class.min.js"></script>
+    <script>
+      React.PropTypes = PropTypes;
+      React.createClass = createReactClass;
+    </script>
+    <!-- 全局依赖 -->
+    <script type="text/javascript" src="/cloudstore/resource/pc/promise/promise.min.js"></script>
+    <script type="text/javascript" src="/cloudstore/resource/pc/fetch/fetch.min.js"></script>
+    <!-- 组件库 -->
+    <script type="text/javascript" src="/cloudstore/resource/pc/com/v1/index.min.js"></script>
+    <script type="text/javascript" src="/cloudstore/resource/pc/com/v1/ecCom.min.js"></script>
+    <script>
+      function parseURL(url){
+        var url = url.split('?')[1];
+        var para = url.split('&');
+        var len = para.length;
+        var res = {};
+        var arr = [];
+        for(var i = 0; i < len; i ++){
+          arr = para[i].split('=');
+          res[arr[0]] = decodeURIComponent(arr[1]);
+        }
+        return res;
+      }
+      var defaultOptions = {
+        text: "WATERMARK",
+        fontStyle: "font-size:18px;color:#000;",
+        src: "",
+        width: 200,
+        height: 150,
+        rotate: -15,
+        alpha: 0.15,
+        interval: 2000,
+        intervalCheck: true,
+        clickCheck: true
+      };
+      var tmpOptions = parseURL(window.location.href);
+      var text = '';
+      if (tmpOptions.watermarktype == '1') {
+        ecCom.WeaTools.callApi('/api/doc/watermark/convertwmtextparams', 'POST', { paramsContent: tmpOptions.wmcontent }).then(res => {
+          text = res.paramsContent;
+          options = {
+            ...options,
+            text,
+          }
+          ecCom.WeaTools.watermark(options);
+        });
+      }
+      var newOptions = {
+        text,
+        width: tmpOptions.wmwidth,
+        height: tmpOptions.wmheight,
+        src: tmpOptions.watermarktype == '2' ? '/weaver/weaver.file.FileDownload?fileid=' + tmpOptions.imageid : '',
+        rotate: -Number(tmpOptions.rotate),
+        alpha: Number(tmpOptions.opacity) / 100,
+      }
+      var options = {
+        ...defaultOptions,
+        ...newOptions,
+      };
+      console.log(options);
+      ecCom.WeaTools.watermark(options);
+    </script>
+  </body>
+</html>

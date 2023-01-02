@@ -1,0 +1,260 @@
+@font-face {
+  font-family: 'icon-portal';
+  src:  url('fonts/icon-portal.eot?wikast');
+  src:  url('fonts/icon-portal.eot?wikast#iefix') format('embedded-opentype'),
+    url('fonts/icon-portal.ttf?wikast') format('truetype'),
+    url('fonts/icon-portal.woff?wikast') format('woff'),
+    url('fonts/icon-portal.svg?wikast#icon-portal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-portal' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-portal-AuthorityCenter-o .path1:before {
+  content: "\e900";
+  color: rgb(3, 0, 0);
+}
+.icon-portal-AuthorityCenter-o .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(4, 0, 0);
+}
+.icon-portal-Workflow:before {
+  content: "\e90e";
+}
+.icon-portal-portal:before {
+  content: "\e914";
+}
+.icon-portal-operation:before {
+  content: "\e915";
+}
+.icon-portal-Modular:before {
+  content: "\e916";
+}
+.icon-portal-ModelingEngine:before {
+  content: "\e917";
+}
+.icon-portal-MobileEngine:before {
+  content: "\e918";
+}
+.icon-portal-Journal:before {
+  content: "\e919";
+}
+.icon-portal-integration:before {
+  content: "\e91a";
+}
+.icon-portal-content:before {
+  content: "\e91b";
+}
+.icon-portal-CloudStore:before {
+  content: "\e91c";
+}
+.icon-portal-AuthorityCenter:before {
+  content: "\e91d";
+}
+.icon-portal-Workflow-o:before {
+  content: "\e91e";
+}
+.icon-portal-portal-o:before {
+  content: "\e91f";
+}
+.icon-portal-operation-o:before {
+  content: "\e920";
+}
+.icon-portal-Modular-o:before {
+  content: "\e921";
+}
+.icon-portal-ModelingEngine-o:before {
+  content: "\e922";
+}
+.icon-portal-MobileEngine-o:before {
+  content: "\e923";
+}
+.icon-portal-Journal-o:before {
+  content: "\e924";
+}
+.icon-portal-integration-o:before {
+  content: "\e925";
+}
+.icon-portal-content-o:before {
+  content: "\e926";
+}
+.icon-portal-CloudStore-o:before {
+  content: "\e927";
+}
+.icon-portal-blog:before {
+  content: "\e96a";
+}
+.icon-portal-blog-o:before {
+  content: "\e902";
+}
+.icon-portal-car:before {
+  content: "\e96b";
+}
+.icon-portal-car-o:before {
+  content: "\e903";
+}
+.icon-portal-common:before {
+  content: "\e96c";
+}
+.icon-portal-common-o:before {
+  content: "\e904";
+}
+.icon-portal-cowork:before {
+  content: "\e96d";
+}
+.icon-portal-cowork-o:before {
+  content: "\e905";
+}
+.icon-portal-crm:before {
+  content: "\e96e";
+}
+.icon-portal-crm-o:before {
+  content: "\e906";
+}
+.icon-portal-cs:before {
+  content: "\e96f";
+}
+.icon-portal-cs-o:before {
+  content: "\e907";
+}
+.icon-portal-demo:before {
+  content: "\e970";
+}
+.icon-portal-demo-o:before {
+  content: "\e908";
+}
+.icon-portal-doc:before {
+  content: "\e971";
+}
+.icon-portal-doc-o:before {
+  content: "\e909";
+}
+.icon-portal-email:before {
+  content: "\e972";
+}
+.icon-portal-email-o:before {
+  content: "\e90a";
+}
+.icon-portal-fa:before {
+  content: "\e973";
+}
+.icon-portal-fa-o:before {
+  content: "\e90b";
+}
+.icon-portal-home:before {
+  content: "\e974";
+}
+.icon-portal-hrm:before {
+  content: "\e975";
+}
+.icon-portal-hrm-o:before {
+  content: "\e90c";
+}
+.icon-portal-implement:before {
+  content: "\e976";
+}
+.icon-portal-implement-o:before {
+  content: "\e90d";
+}
+.icon-portal-investigate:before {
+  content: "\e977";
+}
+.icon-portal-investigate-o:before {
+  content: "\e90f";
+}
+.icon-portal-kpi:before {
+  content: "\e978";
+}
+.icon-portal-kpi-o:before {
+  content: "\e910";
+}
+.icon-portal-license:before {
+  content: "\e979";
+}
+.icon-portal-license-o:before {
+  content: "\e911";
+}
+.icon-portal-meeting:before {
+  content: "\e97a";
+}
+.icon-portal-meeting-o:before {
+  content: "\e912";
+}
+.icon-portal-message:before {
+  content: "\e97b";
+}
+.icon-portal-schedule-o:before {
+  content: "\e913";
+}
+.icon-portal-news:before {
+  content: "\e97c";
+}
+.icon-portal-news-o:before {
+  content: "\e928";
+}
+.icon-portal-official:before {
+  content: "\e97d";
+}
+.icon-portal-official-o:before {
+  content: "\e929";
+}
+.icon-portal-photo:before {
+  content: "\e97e";
+}
+.icon-portal-photo-o:before {
+  content: "\e92a";
+}
+.icon-portal-project:before {
+  content: "\e97f";
+}
+.icon-portal-project-o:before {
+  content: "\e92b";
+}
+.icon-portal-reportform:before {
+  content: "\e980";
+}
+.icon-portal-reportform-o:before {
+  content: "\e92c";
+}
+.icon-portal-satisfaction:before {
+  content: "\e981";
+}
+.icon-portal-satisfaction-o:before {
+  content: "\e92d";
+}
+.icon-portal-schedule:before {
+  content: "\e982";
+}
+.icon-portal-si:before {
+  content: "\e983";
+}
+.icon-portal-si-o:before {
+  content: "\e92e";
+}
+.icon-portal-store:before {
+  content: "\e984";
+}
+.icon-portal-workflow:before {
+  content: "\e985";
+}
+.icon-portal-ws:before {
+  content: "\e986";
+}
+.icon-portal-ws-o:before {
+  content: "\e92f";
+}

@@ -1,0 +1,66 @@
+.tzCheckBox{
+	background:url('background_wev8.png') no-repeat left bottom;
+	display:inline-block;
+	height:16px;
+	white-space:nowrap;
+	position:relative;
+	cursor:pointer;
+	margin:0 14px 0 0;
+}
+
+.tzCheckBox_disabled{
+	background:url('background_disabled_wev8.png') no-repeat left bottom;
+	display:inline-block;
+	height:16px;
+	white-space:nowrap;
+	position:relative;
+	cursor:pointer;
+	margin:0 14px 0 0;
+}
+
+.tzCheckBox.checked,.tzCheckBox_disabled.checked{
+	background-position:top left;
+	margin:0 14px 0 0;
+}
+
+.tzCheckBox .tzCBContent,.tzCheckBox_disabled .tzCBContent{
+	color: white;
+	line-height: 16px;
+	text-align:left;
+	padding:0 0 0 23px;
+}
+
+.tzCheckBox.checked .tzCBContent,.tzCheckBox_disabled.checked .tzCBContent{
+	text-align:left;
+	padding:0 0 0 23px;
+}
+
+.tzCBPart{
+	background:url('background_wev8.png') no-repeat right bottom;
+	width:16px;
+	position:absolute;
+	top:0;
+	left:auto;
+	right:-14px;
+	height:16px!important;
+	overflow: hidden;
+	font-family: Verdana!important;
+}
+
+.tzCBPart_disabled{
+	background:url('background_disabled_wev8.png') no-repeat right bottom;
+	width:16px;
+	position:absolute;
+	top:0;
+	left:auto;
+	right:-14px;
+	height:16px!important;
+	overflow: hidden;
+	font-family: Verdana!important;
+}
+
+.tzCheckBox.checked .tzCBPart,.tzCheckBox_disabled.checked .tzCBPart_disabled{
+	background-position:top right;
+	left:auto;
+	right:-14px;
+}

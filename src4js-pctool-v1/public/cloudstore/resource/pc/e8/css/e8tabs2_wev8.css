@@ -1,0 +1,170 @@
+/* box */
+.e8_box {
+	height:100%;
+	width:100%;
+	background: #fff;
+	/*display:none;*/
+	visibility:hidden;
+	overflow:hidden;
+}
+.tab_menu{
+	padding: 0px;
+	margin: 0px;
+	background: #FFF;
+	float:left;
+	height: 40px;
+	line-height: 40px;
+	overflow:hidden;
+	/*width:120px;
+	width:100%;*/
+	clear:both;
+	/*position:relative;*//*建模任务EWV201411280002 页面扩展设置dml接口时，点击倒三角符号也没有反应，下拉菜单绝对位置的高度计算错误，所以显示不出来*/
+	/*border-bottom:1px solid #7FB4E9;*/
+}
+
+.e8_rightBox {
+	overflow:hidden;
+	padding: 0px;
+	margin: 0px;
+	/*border-bottom:1px solid #7FB4E9;*/
+	background: #FFF;
+	float:right;
+	text-align:right;
+	height:39px;
+	line-height:39px;
+	position:absolute;
+	right:0;
+}
+
+.tab_menu li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	list-style-type: none;
+	padding-left:15px;
+	padding-right:10px;
+	color:#242424;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.tab_menu li a {
+	color:#242424;
+	display:inline-block;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-break: keep-all;
+}
+
+.e8_rightBorder{
+	padding-left:10px;
+	color:#B8B8B8;
+}
+
+.tab_menu li.current {
+	/*color: #53A1E1;*/
+	color:#1264B5;
+}
+
+.tab_menu li a:hover{
+	color:#1264B5 !important;
+}
+
+.tab_menu li.current a{
+	color:#1264B5 !important;
+}
+
+.tab_box {
+	height: 100%;
+	width:100%;
+	background:#fff;
+	visibility:hidden;
+	border-top:1px solid #7FB4E9;
+	clear:both;
+}
+.tab_box .hide,div.hide {
+	display: none;
+}
+
+div.e8_content{
+	float:right;
+	position:absolute;
+	background: #fff;
+	border-left:1px solid #D7D7D7;
+	border-bottom:1px solid #D7D7D7;
+	border-right:1px solid #D7D7D7;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	z-index:99999;
+}
+
+div.e8_content li{
+	float:none;
+	height:36px;
+	/*list-style-type:disc;*/
+	padding-left:25px;
+	padding-right:10px;
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;
+	text-align:left;
+	left:0px;
+}
+
+div.e8_content li.e8_li_hover{
+	background: #FAFAFA;
+	border-top:1px solid #E6E6E6;
+	border-bottom:1px solid #E6E6E6;
+	color:#53A1E1;
+}
+
+div.e8_content li a:hover{
+	color:#53A1E1;
+}
+
+div.e8_content li a{
+	color:#B8B8B8;
+}
+
+li.e8_expand{
+	border-left:1px solid transparent;
+	border-right:1px solid transparent;
+	background-image:url(/js/tabs/images/uparrow_wev8.png);
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+}
+
+li.e8_expand_selected{
+	background-color:#fff;
+	border-left:1px solid #D7D7D7;
+	border-right:1px solid #D7D7D7;
+}
+
+.magic-line {
+	position: absolute;
+	left: 0;
+	height: 12px!important;
+	line-height: 2px!important;
+	top:29px;
+	background-color: transparent;
+	background-image:url(/js/tabs/images/tab_shadow_wev8.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	padding:0px !important
+}
+
+.e8_btn_top{
+	background-color:transparent;
+}
+
+.e8_outbox{
+	position:relative;
+	top:0px!important;
+}
+
+.defaultTab{
+	display:none;
+}

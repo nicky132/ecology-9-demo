@@ -1,0 +1,33 @@
+module.exports = [{
+  "key": "/cloudstore/resource/pc/com/v1/index.min.css",
+  "src": "/cloudstore/resource/pc/com/v1/index.min.css?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/cloudstore/resource/pc/com/v1/index.min.js",
+  "src": "/cloudstore/resource/pc/com/v1/index.min.js?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/cloudstore/resource/pc/com/v1/ecCom.min.css",
+  "src": "/cloudstore/resource/pc/com/v1/ecCom.min.css?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/cloudstore/resource/pc/com/v1/ecCom.min.js",
+  "src": "/cloudstore/resource/pc/com/v1/ecCom.min.js?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/cloudstore/resource/pc/com/v1/small.min.css",
+  "src": "/cloudstore/resource/pc/com/v1/small.min.css?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/cloudstore/resource/pc/com/v1/small.min.js",
+  "src": "/cloudstore/resource/pc/com/v1/small.min.js?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/spa/coms/index.mobx.css",
+  "src": "/spa/coms/index.mobx.css?v=1552876474715",
+  "version": 1552876474715
+}, {
+  "key": "/spa/coms/index.mobx.js",
+  "src": "/spa/coms/index.mobx.js?v=1552876474715",
+  "version": 1552876474715
+}]

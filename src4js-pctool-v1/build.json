@@ -1,0 +1,436 @@
+[{
+  "path": "src4js-pctool-v1/versionsCom.js",
+  "mod": ["main", "bs_main"],
+  "hasMain": true,
+  "hasBsMain": true
+}, {
+  "path": "wui/engine.html",
+  "mod": "bs_main",
+  "hasMain": false,
+  "hasBsMain": true
+}, {
+  "path": "wui/index.html",
+  "mod": "main",
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js-pctool-v1/public/wui_engine.html",
+  "mod": "bs_main",
+  "hasMain": false,
+  "hasBsMain": true
+}, {
+  "path": "src4js-pctool-v1/public/wui_index.html",
+  "mod": "main",
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js-pctool-v1/package.json",
+  "mod": "",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/amain",
+  "mod": "main",
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/amain",
+  "mod": "bs_main",
+  "hasMain": false,
+  "hasBsMain": true
+}, {
+  "path": "src4js/pc4mobx/portal4theme",
+  "mod": "theme",
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/favourite",
+  "mod": "theme",
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4public",
+  "mod": "portalPublic",
+  "hasMain": true,
+  "hasBsMain": true
+}, {
+  "path": "src4js/pc4mobx/portal4em",
+  "mod": "portalEM",
+  "hasMain": false,
+  "hasBsMain": false
+},{
+  "path": "src4js/pc4mobx/portal",
+  "mod": "portal",
+  "hasMain": true,
+  "hasBsMain": true
+}, {
+  "path": "src4js-pctool-v1/versionCom.js",
+  "mod": "",
+  "hasMain": true,
+  "hasBsMain": true
+}, {
+  "path": "src4js/pc4backstage/portal4enginetheme",
+  "mod": "bs_theme",
+  "hasMain": false,
+  "hasBsMain": true
+}, {
+  "path": "src4js/pc4backstage/portal4engine",
+  "mod": "bs_portal",
+  "hasMain": false,
+  "hasBsMain": true
+}, {
+  "path": "src4js/pc4mobx/portal4custom/login",
+  "mod": "portalCustomLogin",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4custom/theme",
+  "mod": "portalCustomTheme",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4custom/element",
+  "mod": "portalCustomElement",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4layout",
+  "mod": "portalLayout",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4login",
+  "mod": ["hrmLogin", "loginNew"],
+  "hasMain": true,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/portal4com",
+  "mod": "portalCom",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4public",
+  "mod": ["customsetting", "emobile", "message"],
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/smallApp",
+  "mod": "smallApp",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/cube",
+  "mod": "cube",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/cpt",
+  "mod": "cpt",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/crm",
+  "mod": "crm",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/crmReport",
+  "mod": "crmReport",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/crmPortal",
+  "mod": "crmPortal",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/blog",
+  "mod": "blog",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/cowork",
+  "mod": "cowork",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/demo",
+  "mod": "demo",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/info",
+  "mod": "info",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/document",
+  "mod": "document",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/documentDetail",
+  "mod": "documentDetail",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/email",
+  "mod": "email",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/fna",
+  "mod": "fna",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/fnaSpecial",
+  "mod": "fnaSpecial",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/hrm",
+  "mod": "hrm",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/inte",
+  "mod": "inte",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/meeting",
+  "mod": "meeting",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/odoc",
+  "mod": "odoc",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/odocExchange",
+  "mod": "odocExchange",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/prj",
+  "mod": "prj",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/workrelate",
+  "mod": "workrelate",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/car",
+  "mod": "car",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/govern",
+  "mod": "govern",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/workplan",
+  "mod": "workplan",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/esearch",
+  "mod": "esearch",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/workflow",
+  "mod": "workflow",
+  "hasMain": false,
+  "hasBsMain": false
+},{
+  "path": "src4js/pc4mobx/favourite",
+  "mod": "favourite",
+  "hasMain": false,
+  "hasBsMain": false
+},{
+  "path": "src4js/pc4mobx/workflowPublic",
+  "mod": "workflowPublic",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/workflowForm",
+  "mod": "workflowForm",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/performance",
+  "mod": "performance",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/hrmengine",
+  "mod": "bs_hrm",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/mobilemode4engine",
+  "mod": ["bs_mobilemode", "bs_mobilemode_designer"],
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/fnaMulDimensions",
+  "mod": "bs_fnaMulit",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4develop/e9contract/theme",
+  "mod": "e9contract",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/hrmPublic",
+  "mod": "bs_hrmPublic",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/smallApp",
+  "mod": "bs_smallApp",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/cpt",
+  "mod": "bs_cpt",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/crm",
+  "mod": "bs_crm",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/document",
+  "mod": "bs_document",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/meeting",
+  "mod": "bs_meeting",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/cowork",
+  "mod": "bs_cowork",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/blog",
+  "mod": "bs_blog",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/info",
+  "mod": "bs_info",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/customizationDev",
+  "mod": "bs_customizationDev",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/email",
+  "mod": "bs_email",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/integration",
+  "mod": "bs_integration",
+  "hasMain": false,
+  "hasBsMain": false
+},{
+    "path": "src4js/pc4backstage/integrationElement",
+    "mod": "integration_element",
+    "hasMain": false,
+    "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/esb",
+  "mod": "bs_esb",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/fna",
+  "mod": "bs_fna",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/odoc",
+  "mod": "bs_odoc",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/prj",
+  "mod": "bs_prj",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/security",
+  "mod": "bs_security",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/cube",
+  "mod": "bs_cube",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/govern",
+  "mod": "bs_govern",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/workplan",
+  "mod": "bs_workplan",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/workflow",
+  "mod": "bs_workflow",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/sapIntegration/public",
+  "mod": "bs_sapIntegrationPublic",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/sapIntegration",
+  "mod": "bs_sapIntegration",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/hrmAttendance",
+  "mod": "hrmAttendance",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/hrmSignPlugin",
+  "mod": "hrmSignPlugin",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/hrmAttendance",
+  "mod": "bs_hrmAttendance",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4backstage/hrmComsPublic",
+  "mod": "bs_hrmComsPublic",
+  "hasMain": false,
+  "hasBsMain": false
+}, {
+  "path": "src4js/pc4mobx/hrm/util",
+  "mod": "loginNew",
+  "hasMain": false,
+  "hasBsMain": false
+}]

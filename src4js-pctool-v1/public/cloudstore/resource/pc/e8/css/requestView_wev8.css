@@ -1,0 +1,232 @@
+	/*
+	 * 全部
+	 */
+	*{
+		margin:0px;
+		padding:0px;
+		Font-Family:"微软雅黑" !important;
+	}
+	
+	/*
+	 * 隐藏
+	 */
+	.hide{
+		display:none;
+	}	
+	
+	/*
+	 * 左侧菜单最外层DIV
+	 */
+	.flowMenuDiv{
+		float:right;
+		width:100%;
+		border:0px;
+		margin:0px;
+		position:relative;
+	}	
+	
+	/*
+	 * 左侧菜单顶部DIV
+	 */
+	.flowMenuAll{
+		background-color:#E3E1E2;
+		height:30px;
+		width:100%;
+		line-height:30px;
+	}
+	
+	/*
+	 * 左侧菜单顶部DIV内的文字
+	 */
+	.flowMenuAll span.allText{
+		margin-left:10px;
+		height:30px;
+		line-height:30px;
+	}
+	.flowMenuAll span.allSum{
+		height:30px;
+		line-height:30px;
+	}
+	
+	
+	/*
+	 *
+	 */
+	.leftTypeSearch span{
+		display:-moz-inline-box;
+		display:inline-block;
+		/*height:30px;
+		line-height:30px;*/
+		font-weight:normal;
+		vertical-align:middle;
+	}
+	
+		
+	/*
+	 *	左侧二级菜单
+	 */
+	.floatSubMenu{
+		cursor:pointer;
+		padding-left:15px;
+		height:30px;
+	}
+	
+	/*
+	 * 
+	 */
+	.flowFrame{
+		/*float:left;*/
+		margin:0px;
+		padding:0px;
+		width:100%;
+		border:0px;
+	}
+
+	/*
+	 * 
+	 */
+	.flowsTable{
+		width:100%;
+		border:0;
+		height:1000px;
+	}
+	
+	/*
+	 * 
+	 */
+	.flowsTable td{
+		vertical-align:top;
+		margin:0px;
+		padding:0px;
+	}
+	
+	.flowsTable td.flowMenusTd{
+		width:246px!important;
+	}
+
+	/*
+	 *	左侧查询 
+	 */
+	td.leftTypeSearch{
+		vertical-align:top;
+		height:60px;
+		width:246px;
+		font-size:15px;
+		border-right:1px solid #BDBDBD;
+		/*border-bottom:1px solid #dadada;*/
+		background-color:rgb(245,245,245);
+		position:relative;
+		display:none;
+	}
+	
+	td.leftTypeSearch div{
+		position:relative;
+	}
+	
+	/*
+	 * 左侧查询
+	 */
+	.leftTypeSearch span{
+		font-weight:bold;
+		top:0px;
+		position:relative;
+	}
+	
+	.leftTypeSearch span.searchInputSpan{
+		border:1px solid rgb(252,252,252);
+		width:99%;
+		/*margin-top:5px;*/
+		top:-5px;
+	}
+	
+	.leftTypeSearch span#searchblockspan{
+		/*width:130px;*/
+		text-align:right;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:30px;
+		position:absolute;
+	}
+	
+	/*
+	 * 左侧菜单最外层的Td
+	 */
+	.flowMenusTd{
+		border-right:1px solid #BDBDBD;
+		background-color:rgb(245,245,245)!important;
+		display:none;
+	}
+	
+	/*
+	 * 左侧查询
+	 */
+	.leftSearchInput{
+		width:100%!important;
+		background-color: rgb(252,252,252);/*rgb(245,245,245);*/
+		border: none;
+	}
+	
+	/*
+	 * 
+	 */
+	.inputing{
+		background-color:#FFF;
+	}
+	
+	/*
+	 * 
+	 */
+	.leftSearchImg{
+		vertical-align:middle;
+	}
+	
+	/*
+	 * 
+	 */
+	.leftSearchSpan{
+		float:none;
+		margin:0 auto;
+		height:30px;
+		line-height:30px;
+		position:relative;
+		width:100%;
+		vertical-align:top;
+		top:0px!important;
+	}
+	
+	
+	/*
+	 * 
+	 */
+	.middle{
+		vertical-align:middle;
+	}
+	
+	/*
+	 * 
+	 */
+	.leftType{
+		padding-left:10px;
+		height:30px;
+		line-height:30px;
+		float:left;
+		cursor:pointer;
+	}
+	
+	/*
+	 * 
+	 */
+	.ulDiv{
+		overflow:visible;height:1000px;position:relative;
+	}
+	
+	
+	.menu_lv1{
+			
+	}
+
+
+	BUTTON.AddDocFlowHidden {
+		visibility:hidden;
+	}

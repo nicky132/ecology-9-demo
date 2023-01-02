@@ -1,0 +1,180 @@
+.jNiceChecboxFloat{
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	margin-top: 3px;
+	padding-left:15px;
+}
+
+/* -------------
+ * Buttons
+ * ------------- */
+button {margin:0;padding:0;border:none;
+/*background-color:transparent;*/
+cursor:pointer;overflow:visible;outline:none;moz-outline:none;}
+*:first-child+html button[type]{width:1;} /* IE7 */
+
+button span {
+	background: transparent url(elements/btn_right_wev8.gif) no-repeat scroll right top;
+	display: block;
+	float: left;
+	padding: 0px 4px 0px 0px; /* sliding doors padding */
+	margin: 0px;
+}
+
+button span span {
+	background: transparent url(elements/btn_left_wev8.gif) no-repeat;
+	color: #FFFFFF;
+	padding: 1px 4px 0px 8px;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+	text-transform: lowercase;
+	display: block;
+	text-decoration: none;
+}
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jNiceInputWrapper {
+	background: transparent url(elements/input_wev8.gif) no-repeat left top;
+	float:left;
+}
+
+.jNiceInputInner {
+	background: transparent url(elements/input_wev8.gif) no-repeat right top;
+	padding: 2px 4px 2px 0;
+	margin: 0 0 0 4px;
+}
+
+.jNiceInputInner input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#404040;	
+	line-height: 17px;
+	height: 17px;
+	*line-height: 15px;/* IE Hacks */
+	*height: 15px;/* IE Hacks */
+	vertical-align:middle;padding:0;margin:0;background:none;border:none;outline:none;
+}
+
+.jNiceInputWrapper_hover { background-position: left bottom; }
+.jNiceInputWrapper_hover .jNiceInputInner { background-position: right bottom; }
+
+
+/* -------------
+ * Radios
+ * ------------- */
+.jNiceRadio {
+	background: transparent url(elements/radio_wev8.png) no-repeat center top;
+	height: 18px;
+	width: 18px;
+	/*position:absolute;left:0px;top:0px;cursor:pointer;vertical-align:middle;*/
+	position:relative;
+	display:inline-block;
+	z-index:0;
+	cursor:pointer;
+}
+
+.jNiceRadio_disabled {
+	background: transparent url(elements/radio_disabled_wev8.png) no-repeat center top;
+	height: 18px;
+	width: 18px;
+	/*position:absolute;left:0px;top:0px;cursor:pointer;vertical-align:middle;*/
+	position:relative;
+	display:inline-block;
+	z-index:0;
+	cursor:pointer;
+}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+.jNiceCheckbox {
+	background: transparent url(elements/checkbox_wev8.gif) no-repeat center top;
+	height: 18px;
+	width: 18px;
+	position:relative;
+	display:inline-block;
+	/*position:absolute;
+	left:0px;
+	top:0px;
+	z-index:2;*/
+	z-index:0;
+	cursor:pointer;
+}
+
+.jNiceCheckbox_disabled {
+	background: transparent url(elements/checkbox_disabled_wev8.gif) no-repeat center top;
+	height: 18px;
+	width: 18px;
+	position:relative;
+	display:inline-block;
+	/*position:absolute;
+	left:0px;
+	top:0px;
+	z-index:2;*/
+	z-index:0;
+	cursor:pointer;
+}
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+.jNiceChecked { background-position: center bottom;}
+
+.jNiceChecked_disabled { background-position: center bottom;}
+
+/* -------------
+ * Selects
+ * ------------- */
+.jNiceWrapper select {border:none;margin:0;padding:0;}
+
+.jNiceSelectWrapper {
+	height: 17px;
+	left:0px;top:0px;z-index:3;position:absolute;
+}
+
+.jNiceWrapper iframe {position:absolute;z-index:1;width:100%;left:0px;top:0px;}
+
+.jNiceSelectWrapper .jNiceSelectText {
+	height: 15px;
+	line-height: 15px;
+	padding: 0px 3px;
+	border: 1px solid #CCCCCC;
+	border-right: none;
+	background-color: #FFF;
+	overflow:hidden;float:none;position:absolute;z-index:100;
+}
+
+.jNiceSelectWrapper .jNiceSelectOpen {
+	width: 21px;
+	height: 17px;
+	background: url(elements/select_right_wev8.gif) no-repeat center center;
+	z-index:100;display:block;position:absolute;right:0px;
+}
+
+.jNiceSelectWrapper ul {
+	top: 16px;
+	background-color: #FFF;
+	border: solid 1px #CCC;
+	height: 150px;
+	position:absolute;left:0px;list-style:none;display: none;margin:0;padding:0;overflow-y:auto;z-index:100;width: 95%;
+}
+
+.jNiceSelectWrapper ul a {
+	color:#0099CC;
+	background-color: #FFF;
+	display:block;padding:5px;text-decoration:none;
+}
+
+.jNiceSelectWrapper ul a:hover { background:#E1F5FF; }
+.jNiceSelectWrapper ul a.selected {background: #EDEDED;}
+
+.jNiceFocus { border: dotted 1px #666666; }
+
+.jNiceHidden {opacity:0;z-index:-1;position:relative;display:none;}
+.jNiceWrapper {position:relative;vertical-align:middle;}
+.jNiceWrapper input {outline:none;moz-outline:none;}

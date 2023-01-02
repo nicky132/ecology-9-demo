@@ -1,0 +1,58 @@
+
+	
+	/*
+	 *
+	 */
+	.flow_new{
+		color:#FFA302;
+	}
+	
+	/*
+	 *
+	 */
+	.flow_response{
+		color:#486C3E;
+	}
+	
+	/*
+	 *
+	 */
+	.flow_out{
+		color:#C325FF;
+	}
+	
+	
+	/*
+	 * 
+	 */
+	.toggleLeft{
+		display:-moz-inline-box;
+		display:inline-block;
+		height:30px;
+		line-height:30px;
+		font-weight:normal;
+		color:#A4A4A4;
+		cursor:pointer;
+		width:60px;
+		text-align:center;
+		font-size:12px;
+	}	
+
+	
+	
+	/*
+	 * 
+	 */
+	.rightSearchSpan {
+		width:260px;
+		text-align:right;
+		line-height:30px;
+		margin-bottom:0px;
+	}
+	
+
+	
+	
+	
+	
+	

@@ -1,0 +1,32 @@
+	.zd_btn{
+		border:0px;cursor:pointer;
+		background-color:#E2E0E1;
+		padding-left:10px;
+		padding-right:10px;
+		height:30px;
+		line-height:30px;
+	}
+
+	.zd_btnHover{
+		background-color:#c9cacb !important;
+	}
+	
+	.zd_btn_submit{
+		border:0px;cursor:pointer;
+		padding-left:10px;
+		padding-right:10px;
+		height:30px;
+		line-height:30px;
+	
+		background-color:#558ED5;
+		color:white;
+	}
+	.zd_btn_submit_hover{
+		background-color:#0170C1 !important;
+		color:white;
+	}
+	
+	.dialogPadding{
+		padding:10px;
+	}
+	
